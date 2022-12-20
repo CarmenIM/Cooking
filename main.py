@@ -1,8 +1,8 @@
 import tkinter as tk
-from frames.frame import SampleApp
+from frames.app import App
 
 
-if __name__ == "__main__":
-    app = SampleApp()
-    app.mainloop()
-
+if __name__ == '__main__':
+    root = tk.Tk()
+    app = App(root)
+    root.mainloop()
