@@ -7,7 +7,6 @@ bg_colour = "#00A76D"
 
 class App:
 
-
     def __init__(self, root=None):
         self.root = root
         root.title("Undecided? Choose yur recipe here!")
